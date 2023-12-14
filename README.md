@@ -18,4 +18,47 @@ Virtual 42 place for VR headset
 |Support Multiplateforme |	Outils de Cross-Platform Development | |
 
 
+VotreProjetVR/
+│
+├── Source/                      # Dossier source principal
+│   ├── VotreProjetVR/           # Dossier principal du jeu
+│   │   ├── Private/             # Fichiers source privés (C++)
+│   │   │   ├── Main.cpp
+│   │   │   ├── GameMode.cpp
+│   │   │   └── ...
+│   │   │
+│   │   ├── Public/              # Entêtes publics (C++)
+│   │   │   ├── Main.h
+│   │   │   ├── GameMode.h
+│   │   │   └── ...
+│   │   │
+│   │   └── VotreProjetVR.Build.cs  # Fichier de build Unreal
+│   │
+│   └── YourProjectVR.Target.cs  # Cible de build pour l'éditeur
+│
+├── Content/                     # Ressources et assets Unreal
+│   ├── Maps/                    # Cartes et niveaux
+│   ├── Materials/               # Matériaux
+│   ├── Blueprints/              # Blueprints Unreal
+│   └── ...
+│
+├── Config/                      # Fichiers de configuration
+│   ├── DefaultEngine.ini
+│   ├── DefaultGame.ini
+│   └── ...
+│
+├── Binaries/                    # Binaires compilés
+│
+├── Intermediate/                # Fichiers intermédiaires de build
+│
+├── Saved/                       # Sauvegardes et logs
+│
+├── Plugins/                     # Plugins Unreal (si nécessaire)
+│   └── MetaQuestPlugin/         # Plugin pour Meta Quest (exemple)
+│       ├── Source/
+│       └── ...
+│
+├── .gitignore                   # Fichiers et dossiers à ignorer dans Git
+├── README.md                    # Documentation de votre projet
+└── VotreProjetVR.uproject       # Fichier projet Unreal
 
