@@ -6,7 +6,7 @@ Virtual 42 place for VR headset
 
 | Catégorie	| Éléments à Considérer	| Documentations |
 | :--------------- |:---------------:|:---------------:|
-|Moteur de Jeu 3D	| Unreal Engine VR / Unity 3D | https://docs.unrealengine.com/4.26/en-US/SharingAndReleasing/XRDevelopment/VR/ |
+|Moteur de Jeu 3D	| Unreal Engine VR | https://docs.unrealengine.com/4.26/en-US/SharingAndReleasing/XRDevelopment/VR/ |
 |Langages de Programmation |	C++, C#, Java (pour Android), Blueprints (Unreal)	| |
 |Développement VR |	Oculus SDK, AR Foundation (si Unity), Plugins VR spécifiques| |
 |Librairies et Outils	| Librairies de réseau, Librairies de traitement d'image, Librairies de physique, Bibliothèques d'IA | |
